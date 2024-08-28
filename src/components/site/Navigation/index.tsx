@@ -9,7 +9,7 @@ type Prop = {
 };
 const Navigation = () => {
   return (
-    <div className=" px-4 flex items-center justify-between relative">
+    <div className="  px-4 flex items-center justify-between fixed top-0 left-0 right-0 z-[10]">
       <aside className="flex items-center gap-2 relative  ">
         <Image
           src="/nexa.png"
